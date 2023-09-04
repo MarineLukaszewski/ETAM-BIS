@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto&display=swap');
+
+
+.font {
+  font-weight: bolder;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: white;
+  height: 720px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.floatingbar {
+  width: 100%;
+  padding: 9px 96px;
+  max-width: 100%;
+  height: 35px;
+  background-color: black;
+  color: white;
+}
+
+
+.floating-sentences {
+  display: flex;
+padding: 9px 96px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+.floatingmobile {
+  display: none;
+  width: 100%;
+  height: 35px;
+  background-color: black;
+  color: white;
+}
+
+.mobile-floating {
+  list-style: none;
+  display: flex;
+  font-size: 0.87rem;
+  padding-top: 9px;
+  justify-content: center;
+  background-color: black;
+}
+
+.RDV {
+  display: none;
+}
+
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.flexdiv {
+  display: flex;
+}
+
+
+.navbar {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10px;
+}
+
+
+.navbar a {
+  color: black;
+}
+
+.navbar .nav-links {
+  display: flex;
+  height: 62px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar .nav-links ul {
+  display: flex;
+  align-items: center;
+
+}
+
+.menu-hamburger{
+width: 47px;
+display: flex;
+position: absolute;
+right: 1200px;
+display: none;
+}
+
+
+.logo {
+  display: flex;
+  padding: 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+
+/*1st lost*/
+
+.first-slot{
+  position: absolute;
+  display: flex;
+  width: 720px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+
+
+
+.liste-items {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: black;
+  height: 100%;
+  line-height: 64%;
+  font-size: 0.87rem;
+}
+
+.item {
+cursor: pointer;
+margin: 0 20px;
+flex-shrink: 0;
+text-decoration: none;
+}
+
+.emojis {
+padding: 20px 24px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 16px;
+}
+
+.frame66{
+  
+display: flex;
+width: 720px;
+margin-left: 200px;
+margin-top: 200px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+}
+
+.font{
+position: absolute;
+top: 450px;
+color: var(--noir, #000);
+text-align: center;
+leading-trim: both;
+text-edge: cap;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.taille{
+position: absolute;
+top: 500px;  
+text-align: center;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+.button{
+position: absolute;
+top: 600px;
+display: flex;
+padding: 12px 32px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+border-radius: 2px;
+background: var(--etam-black, #000);
+border: none;
+}
+
+/* second slot*/
+
+.second-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 44px;
+  padding: 48px 60px;
+  position: relative;
+}
+
+.second-slot .description {
+  position: relative;
+  width: 799.39px;
+  height: 32.9px;
+}
+
+.second-slot .carousel {
+  display: flex;
+  height: 378px;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  overflow-x: scroll;
+  
+}
+
+.second-slot .item {
+ display: flex;
+width: 425px;
+padding: 38px;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+align-self: stretch;
+background: var(--Jaune, #FFEC85);
+border-radius: 10px;
+}
+
+.second-slot .frame {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  
+}
+
+.second-slot .div {
+  display: inline-flex;
+  gap: 16px;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.second-slot .vector {
+  position: relative;
+  width: 37px;
+  height: 33px;
+}
+
+.second-slot .frame-2 {
+  display: inline-flex;
+  gap: 12px;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.second-slot .mon-rendez-vous {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Baton Turbo-Book", Helvetica;
+  font-weight: 400;
+  color: var(--noir);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.second-slot .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  font-family: "Baton Turbo-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--noir);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.second-slot .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Baton Turbo-Book", Helvetica;
+  font-weight: 400;
+  color: var(--noir);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.second-slot .button {
+  padding: 4px 24px;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: var(--primary-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.second-slot .button-construction {
+  height: 24px;
+  gap: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.second-slot .btn-primary {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.second-slot .callout-message {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Baton Turbo-Book", Helvetica;
+  font-weight: 400;
+  color: var(--primary-color);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.second-slot .frame-wrapper {
+  gap: 20px;
+  display: fixed;
+  flex-direction: column;
+  width: 425px;
+  align-items: center;
+  padding: 38px;
+  position: relative;
+  align-self: stretch;
+  border-radius: 10px;
+background: var(--Rouge-clair, #FFAEA3);
+
+
+}
+
+.second-slot .img {
+  position: relative;
+  width: 31px;
+  height: 32px;
+}
+
+.second-slot .div-wrapper {
+  gap: 20px;
+  background-color: var(--rose);
+  display: flex;
+  flex-direction: column;
+  width: 425px;
+  align-items: center;
+  padding: 38px;
+  position: relative;
+  align-self: stretch;
+  border-radius: 10px;
+  border-radius: 10px;
+background: var(--Rose, #FAD7E5);
+}
+
+.second-slot .vector-2 {
+  position: relative;
+  width: 36px;
+  height: 25px;
+}
+
+.button2{
+  background: black;
+  color: white;
+  border-radius: 2px;
+  border: none;
+}
+
+/* tird slot*/
+
+.third-slot {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #f9d7e5;
+}
+
+.third-slot .frame {
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  padding: 60px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+}
+
+.third-slot .description {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.third-slot .div {
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+}
+
+.third-slot .frame-2 {
+  gap: 20px;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+}
+
+.third-slot .text-wrapper {
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+  font-family: "Baton Turbo-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 44px;
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.third-slot .je-prends-rendez {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Baton Turbo-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.third-slot .span {
+  font-family: "Baton Turbo-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.third-slot .text-wrapper-2 {
+  text-decoration: underline;
+}
+
+.third-slot .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  font-family: "Baton Turbo-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 44px;
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.third-slot .p {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Baton Turbo-Book", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+
+.third-slot .img-thirdslot {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  object-fit: cover;
+}
+
+
+/*Q&A*/
+
+.QA {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 60px;
+  position: relative;
+}
+
+.QA .description {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.QA .div {
+  align-items: flex-start;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.QA .frame-wrapper {
+  align-items: center;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.QA .div-2 {
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: 0px 250px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.QA .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Baton Turbo-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.QA .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Baton Turbo-Book", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.QA .arrow {
+  position: absolute;
+  width: 22px;
+  height: 13px;
+  top: 0;
+  left: 1298px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MOBILE*/
+@media only screen and (max-width: 700px) {
+
+  .floatingbar {
+    width: 100%;
+    display: none;
+  }
+
+  .floatingmobile {
+    display: flex;
+    justify-content: center;
+    width: 720px;
+
+  }
+
+  .logo {
+    width: 60px;
+    position: absolute;
+    left: 70px;
+    top: 40px;
+  }
+  
+  .nav-bar {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .nav-bar .actions {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .menu-hamburger{
+    display: flex;
+    position: absolute;
+    left: 30px;
+    }
+  
+  
+  .nav-bar .right-navigation {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+  }
+  
+  .nav-bar .div {
+    justify-content: flex-end;
+    padding: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .nav-bar .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+
+  .font{
+
+    display: flex;
+    padding: 24px 0px;
+    align-items: center;
+  }
+
+
+  .emojis {
+    width: 130px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    bottom: 610px;
+  }
+
+  .RDV {
+    display: block;
+    width: 300px;
+    position: absolute;
+    top: 130px;
+    left: 230px;
+  }
+
+
+}
